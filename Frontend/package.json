@@ -2,6 +2,7 @@
   "name": "dapp",
   "version": "0.2.0",
   "private": true,
+  "proxy": "http://localhost:5000/",
   "dependencies": {
     "@chakra-ui/react": "^2.8.1",
     "@emotion/react": "^11.11.1",
@@ -25,6 +26,7 @@
     "@types/react": "18.0.37",
     "@types/react-dom": "18.0.11",
     "assert": "2.0.0",
+    "axios": "^1.6.5",
     "buffer": "6.0.3",
     "clsx": "1.2.1",
     "framer-motion": "^10.16.4",
