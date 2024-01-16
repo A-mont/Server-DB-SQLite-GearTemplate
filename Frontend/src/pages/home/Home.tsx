@@ -1,11 +1,14 @@
-
+import { Center } from "@chakra-ui/react";
+import { PlayerForm } from "./Server";
+import { PlayerList } from "./PlayerList";
 
 function Home() {
- 
-
   return (
-    <h1>Hola Mundo</h1>
-  )
+    <Center>
+      <PlayerForm />
+      <PlayerList/>
+    </Center>
+  );
 }
 
 export { Home };
