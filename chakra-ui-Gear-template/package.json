@@ -2,7 +2,7 @@
   "name": "dapp",
   "version": "0.2.0",
   "private": true,
-  "proxy": "http://localhost:5000/",
+  "proxy":"http://localhost:5000/",
   "dependencies": {
     "@chakra-ui/react": "^2.8.1",
     "@emotion/react": "^11.11.1",
